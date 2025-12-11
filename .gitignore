@@ -1,9 +1,20 @@
+# Dependencies
 node_modules/
+
+#Build and Distribution Folders
 dist/
+build/
+
+# Logs
 npm-debug.log*
 yarn-error.log*
-package-lock.json
-db/app.db
-db/test.db
+
+# Environment Files
 .env
 .env.test
+
+# Dependency Lock Files
+package-lock.json
+
+# Database Files
+db/*.db
